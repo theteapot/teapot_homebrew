@@ -1,0 +1,202 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AberrationOfIcespirePeak",
+				"abbreviation": "AoIP",
+				"full": "Aberration of Icespire Peak",
+				"authors": [
+					"Teapot"
+				],
+				"convertedBy": [
+					"teapot"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1558867830,
+		"dateLastModified": 1558867830,
+		"_dateLastModifiedHash": "631d29e8a4"
+	},
+	"adventure": [
+		{
+			"name": "Aberration of Icespire Peak",
+			"id": "AoIP",
+			"source": "AoIP",
+			"group": "other",
+			"alLength": {
+				"exact": 5
+			},
+			"alId": "AoIP",
+			"contents": [
+				{
+					"name": "Chapter 1: The Escape",
+					"headers": [
+						"The Cell",
+						"The Basement",
+						"New Phandelin"
+					]
+				},
+				{
+					"name": "Chapter 2: The Wizards Tower",
+					"headers": []
+				},
+				{
+					"name": "Chapter 3: Return to Icespire Peak",
+					"headers": []
+				},
+				{
+					"name": "Chapter 4: The Way of the Orc",
+					"headers": []
+				},
+				{
+					"name": "Chapter 5: ",
+					"headers": []
+				},
+				{
+					"name": "Chapter 6: ",
+					"headers": []
+				},
+				{
+					"name": "Chapter 7: The Liberation of Phandalin",
+					"headers": []
+				}
+			],
+			"level": {
+				"start": 1,
+				"end": 1
+			},
+			"published": "2014-09-01",
+			"coverUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Adventurers%20League/DDEX1-01/DDEX1-01-cover.webp",
+			"storyline": "Phandelin"
+		}
+	],
+	"adventureData": [
+		{
+			"id": "AoIP",
+			"source": "AoIP",
+			"data": [
+				{
+					"type": "section",
+					"name": "Chapter 1: The Escape",
+					"entries": [
+						"The party must free themselves from captivity, before the stitchers can have their way with them.",
+						"Everyone also has a small red mark etched in the nape of the neck, this is the symbol of the wizard who placed them in stasis",
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								"You awake in near total darkness, the stone ground slick and cold to the touch. The inky blackness is only punctuated by the the soft and wretched groans the despaired.Suddenly, a crack of light pours in through the narrow eye-slit of a door, from beyond a gruff and muffled voice:",
+								"'Alright *hic* - up, UP, UP! Yous gonna be heading off to makes us good and shtrong soon *hic* - and trus' me, aint noone wanna be left behind...'",
+								"The soft slap of flesh on rock receeds into the distance, but the single crack of light catches on a particular stone - which begins to glow..."
+							]
+						},
+						"The party will be interrupted by a new stranger, on the other end of the sending stone that used to belong to Geralf...",
+						{
+							"type": "entries",
+							"name": "Escaping the Cell",
+							"entries": [
+								"The door is bolted from the outside, however with a DC 18 strength check you can break the door off its hinges (with advantage if you get Gandrick to help)",
+								"The eye slit is wide enough for a stick or slender arm, with a DC 18 dex check you can try and lift the bolt from the other side (with advantage if you get one of the children to help)",
+								"There is a family of Farmers from the outskirts of Neverwinter who were snatched by the Stitchers in a raid. The family used to have two boys",
+								{
+									"type": "list",
+									"items": [
+										"Gandrick: level 1 man, husband and father, just wants to keep his family safe",
+										"Limella: level 1 woman, wife to Gandrick, wants to bring her family inside the walls of Neverwinter where its safer",
+										"Odwin: teenage boy, son of Gandrick and Limella, wants to avenge the death of his brother",
+										"Andrea: young girl, adopted by Gandrick and Limella after her family were killed by an Orcish raid"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Outside The Cell",
+							"entries": [
+								"Beyond is a cellar complex, there are party + 1 guards in the area, they will try and wrestle the prisoners under control if they spot them.",
+								"There is a single large table (with a suspiciously dark red finish) in the center of the room, where all but one of the guards is sitting, drinking, and playing cards.",
+								"These guards will detect anyone who leaves the corridor, unless someone does something sneaky. They do not want to kill the party members, and will try and restrain them if possible",
+								"There is a smaller room attached to the left,  where another stitcher, more slight than the others, is studying and writing.",
+								"In this room there are with books and diagrams of human anatomy, along with an impressive array of sharp surgical implements.",
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"The cell was at the end of a long torch lit corridor, you see 6 more doors in total - 3 on each side of the passageway. At the other end, the passageway connects to a larger room.",
+										"From the sounds of things a raucous party seems to be going on."
+									]
+								},
+								"If the players check out the other cells along the way, roll a d6 to see what they find:",
+								{
+									"type": "list",
+									"items": [
+										"1-2: the cell is empty",
+										"3-4: the dead body of a prisoner lies slumped against the wall",
+										"5: A rabid creature huddles in the shadows, away from the light - if investigated its a crazed stitcher",
+										"6: A live villager lies in the cell, exhausted and close to death"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "New Phandalin",
+							"entries": [
+								"",
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										""
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Chapter 2: The Wizards Tower",
+					"entries": [
+						"Having narrowly escaped the clutchers of Stitcher Geralf, the party follow the voice from the gem - as it leads them to a cliff side tower, but the stitchers are not far behind..."
+					]
+				},
+				{
+					"type": "section",
+					"name": "Chapter 3: Return to Icespire Peak",
+					"entries": [
+						"After beating back the Stitchers, the party takes the advice of the Wizard and journeys back to Icespire Peak to retrace Cryovains last moments."
+					]
+				},
+				{
+					"type": "section",
+					"name": "Chapter 4: The Boar and the Orc",
+					"entries": [
+						"After being taken prisoner by the orc clan, the party is offered a choice by the god of the storms that may allow them to resist Stitcher Geralfs flesh magic."
+					]
+				},
+				{
+					"type": "section",
+					"name": "Chapter 5: New Phandelin Beseiged",
+					"entries": [
+						"The party begins their assault on the forces of the Phandelin Stitchers"
+					]
+				},
+				{
+					"type": "section",
+					"name": "Chapter 6: The Battle of New Phandelin",
+					"entries": [
+						"The climactic battle between the party and Geralf and his lackeys"
+					]
+				},
+				{
+					"type": "section",
+					"name": "Chapter 7: The High Stitchers Heart",
+					"entries": [
+						"With the High Stitcher defeated, the party must confront what to do with his heart."
+					]
+				}
+			]
+		}
+	]
+}
