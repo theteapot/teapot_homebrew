@@ -12,7 +12,7 @@
 					"teapot"
 				],
 				"version": "1.0.0",
-				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"url": "https://github.com/theteapot/teapot_homebrew/tree/master/adventure",
 				"targetSchema": "1.0.0"
 			}
 		],
@@ -48,19 +48,19 @@
 					"headers": []
 				},
 				{
-					"name": "Chapter 4: The Way of the Orc",
+					"name": "Chapter 4: The Boar and the Orc",
 					"headers": []
 				},
 				{
-					"name": "Chapter 5: ",
+					"name": "Chapter 5: New Phandelin Beseiged",
 					"headers": []
 				},
 				{
-					"name": "Chapter 6: ",
+					"name": "Chapter 6: The Battle of New Phandelin",
 					"headers": []
 				},
 				{
-					"name": "Chapter 7: The Liberation of Phandalin",
+					"name": "Chapter 7: The High Stitchers Heart",
 					"headers": []
 				}
 			],
@@ -143,7 +143,7 @@
 							"type": "entries",
 							"name": "New Phandalin",
 							"entries": [
-								"",
+								"Free for now, the party venture out into the ",
 								{
 									"type": "insetReadaloud",
 									"entries": [
