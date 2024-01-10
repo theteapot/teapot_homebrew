@@ -65,8 +65,8 @@
 				}
 			],
 			"level": {
-				"start": 1,
-				"end": 1
+				"start": 3,
+				"end": 10
 			},
 			"published": "2014-09-01",
 			"coverUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Adventurers%20League/DDEX1-01/DDEX1-01-cover.webp",
@@ -82,6 +82,7 @@
 					"type": "section",
 					"name": "Chapter 1: The Escape",
 					"entries": [
+						"{@creature Stitched Villager|AoIP}",
 						"The party must free themselves from captivity, before the stitchers can have their way with them.",
 						"Everyone also has a small red mark etched in the nape of the neck, this is the symbol of the wizard who placed them in stasis",
 						{
@@ -143,12 +144,29 @@
 							"type": "entries",
 							"name": "New Phandalin",
 							"entries": [
-								"Free for now, the party venture out into the ",
+								"Free for now, the party venture out into the streets of Phandelin",
+								"If the family is still with them, they explain that if they can make it to the woods on the outskirts of town they should be able to lose any stitches and make it home safely to Neverwinter",
+								"Directly opposite the cellar door, lies the Inn, to their left the town square - where some kind of celebration seems to be underway, while the road to their right has a tall fleshy barricade stretching",
+								"all the way accross the road.",
 								{
-									"type": "insetReadaloud",
-									"entries": [
-										""
-									]
+									"type": "entries",
+									"name": "The Town Square",
+									"entries": {
+										"type": "insetReadaloud",
+										"entries": [
+											"Good people of New Phandelin! I stand before you a humble and profligate man - for you have given me more of yourselves than I could ever have dreamed!",
+											"And it is because of your bravery, your selfless sacrifice, that we are able to gather here today - not just in peace, but in propsperity",
+											"Beforeme, this town was but a chink in the armor of the wilderness - waiting to be exploited, and exploited not by the good folk before me today - ",
+											"but by the craven Lords of Neverwinter! Who sit behind their precious walls while they siphon the nectar of your sweat.",
+											"No longer! Look amongst yourselves, and gaze in awe at the beings you have become, possessed with the strength of many!",
+											"Before us all hangs the lifeless corpse of our foe - the foul and wicked Cryovain - who once thought himself the scourge of this land",
+											"But together we threw off the tyranny of his terror! And broke the his yoke of oppression with our own two, or in some cases more, hands!",
+											"On this day we remember the many who fell on that grim day - and, for many of us, give thanks for the boons they have left behind",
+											"For while it is the meek that shall inherit the earth - we meek shall one day be made strong! And that day is this day!",
+											"Brothers, sisters, today we remember we are knitted together as one! And hope that one day, our own stitch will cut through the threads of History!",
+											"For the Stitchers of New Phandelin! HUZZAH!"
+										]
+									}
 								}
 							]
 						}
@@ -197,6 +215,74 @@
 					]
 				}
 			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Stitched Villager",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"construct"
+				]
+			},
+			"alignment": [
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15
+				}
+			],
+			"hp": {
+				"average": 38,
+				"formula": "13d4 + 6"
+			},
+			"speed": {
+				"walk": {
+					"number": 30,
+					"condition": "(humanoid form)"
+				}
+			},
+			"con": 14,
+			"int": 6,
+			"wis": 10,
+			"cha": 7,
+			"str": 16,
+			"dex": 10,
+			"action": [
+				{
+					"name": "Multi-Limbed Grasp",
+					"entries": [
+						"The Limbweaver Aberration can make three melee attacks with its limbs as part of its Multiattack."
+					]
+				},
+				{
+					"name": "Extendable Limbs",
+					"entries": [
+						"The Limbweaver Aberration can extend one of its limbs up to 15 feet to make a melee attack against a target."
+					]
+				},
+				{
+					"name": "Regenerative Stitching",
+					"entries": [
+						"At the start of each of its turns, the Limbweaver Aberration regains {@h}5 hit points."
+					]
+				},
+				{
+					"name": "Limb Toss",
+					"entries": [
+						"The Limbweaver Aberration can detach one of its limbs and throw it as a ranged weapon with a range of 20/60 feet.",
+						"On a hit, the limb deals ({@damage 2d8}) bludgeoning damage and grapples the target (escape {@dc 12}).",
+						"The limb can be reattached on the Limbweaver Aberration's turn as a bonus action."
+					]
+				}
+			],
+			"source": "me"
 		}
 	]
 }
