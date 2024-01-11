@@ -167,8 +167,79 @@
 											"For the Stitchers of New Phandelin! HUZZAH!"
 										]
 									}
-								}
-							]
+								},
+							{
+								"type": "statblockInline",
+								"style": "inset",
+								"dataType": "monster",
+								"data": {
+									"name": "Stitched Villager",
+									"source": "AoIPMonsters",
+									"size": [
+										"M"
+									],
+									"type": {
+										"type": "humanoid",
+										"tags": [
+											"human",
+											"construct"
+										]
+									},
+									"alignment": [
+										"E"
+									],
+									"ac": [
+										{
+											"ac": 15
+										}
+									],
+									"hp": {
+										"average": 38,
+										"formula": "13d4 + 6"
+									},
+									"speed": {
+										"walk": {
+											"number": 30,
+											"condition": "(humanoid form)"
+										}
+									},
+									"con": 14,
+									"int": 6,
+									"wis": 10,
+									"cha": 7,
+									"str": 16,
+									"dex": 10,
+									"action": [
+										{
+											"name": "Multi-Limbed Grasp",
+											"entries": [
+												"The Limbweaver Aberration can make three melee attacks with its limbs as part of its Multiattack."
+											]
+										},
+										{
+											"name": "Extendable Limbs",
+											"entries": [
+												"The Limbweaver Aberration can extend one of its limbs up to 15 feet to make a melee attack against a target."
+											]
+										},
+										{
+											"name": "Regenerative Stitching",
+											"entries": [
+												"At the start of each of its turns, the Limbweaver Aberration regains {@h}5 hit points."
+											]
+										},
+										{
+											"name": "Limb Toss",
+											"entries": [
+												"The Limbweaver Aberration can detach one of its limbs and throw it as a ranged weapon with a range of 20/60 feet.",
+												"On a hit, the limb deals ({@damage 2d8}) bludgeoning damage and grapples the target (escape {@dc 12}).",
+												"The limb can be reattached on the Limbweaver Aberration's turn as a bonus action."
+											]
+										}
+									],
+									"source": "me"
+									}
+								}]
 						}
 					]
 				},
@@ -213,6 +284,13 @@
 					"entries": [
 						"With the High Stitcher defeated, the party must confront what to do with his heart."
 					]
+				},
+				{
+					"type": {
+						"entries": [
+						
+						]
+					}
 				}
 			]
 		}
