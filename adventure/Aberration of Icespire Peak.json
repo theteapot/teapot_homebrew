@@ -148,23 +148,19 @@
 								"If the family is still with them, they explain that if they can make it to the woods on the outskirts of town they should be able to lose any stitches and make it home safely to Neverwinter",
 								"Directly opposite the cellar door, lies the Inn, to their left the town square - where some kind of celebration seems to be underway, while the road to their right has a tall fleshy barricade stretching",
 								"all the way accross the road.",
-								{
-										"type": "insetReadaloud",
-										"entries": [
-											"Good people of New Phandelin! I stand before you a humble and profligate man - for you have given me more of yourselves than I could ever have dreamed!",
-											"And it is because of your bravery, your selfless sacrifice, that we are able to gather here today - not just in peace, but in propsperity",
-											"Beforeme, this town was but a chink in the armor of the wilderness - waiting to be exploited, and exploited not by the good folk before me today - ",
-											"but by the craven Lords of Neverwinter! Who sit behind their precious walls while they siphon the nectar of your sweat.",
-											"No longer! Look amongst yourselves, and gaze in awe at the beings you have become, possessed with the strength of many!",
-											"Before us all hangs the lifeless corpse of our foe - the foul and wicked Cryovain - who once thought himself the scourge of this land",
-											"But together we threw off the tyranny of his terror! And broke the his yoke of oppression with our own two, or in some cases more, hands!",
-											"On this day we remember the many who fell on that grim day - and, for many of us, give thanks for the boons they have left behind",
-											"For while it is the meek that shall inherit the earth - we meek shall one day be made strong! And that day is this day!",
-											"Brothers, sisters, today we remember we are knitted together as one! And hope that one day, our own stitch will cut through the threads of History!",
-											"For the Stitchers of New Phandelin! HUZZAH!"
-										]
-									}
-								,
+								
+								"Good people of New Phandelin! I stand before you a humble and profligate man - for you have given me more of yourselves than I could ever have dreamed!",
+								"And it is because of your bravery, your selfless sacrifice, that we are able to gather here today - not just in peace, but in propsperity",
+								"Beforeme, this town was but a chink in the armor of the wilderness - waiting to be exploited, and exploited not by the good folk before me today - ",
+								"but by the craven Lords of Neverwinter! Who sit behind their precious walls while they siphon the nectar of your sweat.",
+								"No longer! Look amongst yourselves, and gaze in awe at the beings you have become, possessed with the strength of many!",
+								"Before us all hangs the lifeless corpse of our foe - the foul and wicked Cryovain - who once thought himself the scourge of this land",
+								"But together we threw off the tyranny of his terror! And broke the his yoke of oppression with our own two, or in some cases more, hands!",
+								"On this day we remember the many who fell on that grim day - and, for many of us, give thanks for the boons they have left behind",
+								"For while it is the meek that shall inherit the earth - we meek shall one day be made strong! And that day is this day!",
+								"Brothers, sisters, today we remember we are knitted together as one! And hope that one day, our own stitch will cut through the threads of History!",
+								"For the Stitchers of New Phandelin! HUZZAH!",
+								
 								
 							{
 								"type": "statblockInline",
