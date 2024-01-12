@@ -149,9 +149,6 @@
 								"Directly opposite the cellar door, lies the Inn, to their left the town square - where some kind of celebration seems to be underway, while the road to their right has a tall fleshy barricade stretching",
 								"all the way accross the road.",
 								{
-									"type": "entries",
-									"name": "The Town Square",
-									"entries": {
 										"type": "insetReadaloud",
 										"entries": [
 											"Good people of New Phandelin! I stand before you a humble and profligate man - for you have given me more of yourselves than I could ever have dreamed!",
@@ -168,6 +165,7 @@
 										]
 									}
 								},
+								
 							{
 								"type": "statblockInline",
 								"style": "inset",
